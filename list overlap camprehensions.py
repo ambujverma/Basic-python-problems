@@ -7,6 +7,7 @@ result = []
 for j in result_overlaped:
     if j not in result:
         result.append(j)
-
-        
 print(result)        
+
+#OUTPUT
+# [1, 2, 3, 5, 8, 13]
